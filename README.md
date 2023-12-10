@@ -1,4 +1,4 @@
-# Analyzing Tokopaedi Trend With BasicSQL
+# Analyzing Tokopaedi Trend With Basic SQL
 
 ## Basic Clauses
 Based on klausa_dasar_part1.sql allows us to learn into fundamental SQL concepts. We initiate our journey by comprehending the process of creating tables, knowing the SELECT statement and using the FROM clause. Furthermore, gaining insights into the wildcard '*' and its strategic role in database querying enhances our ability to craft targeted and effective SQL queries. So, here is an explanation of each clause used:
