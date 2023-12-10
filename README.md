@@ -1,6 +1,6 @@
 # Analyzing Tokopaedi Trend With BasicSQL
 
-## Basic Clause
+## Basic Clauses
 Based on klausa_dasar_part1.sql allows us to learn into fundamental SQL concepts. We initiate our journey by comprehending the process of creating tables, knowing the SELECT statement and using the FROM clause. Furthermore, gaining insights into the wildcard '*' and its strategic role in database querying enhances our ability to craft targeted and effective SQL queries. So, here is an explanation of each clause used:
 
 1. **Create Table:**
@@ -23,7 +23,7 @@ Here is the output from this file:
 3. Analysis: I create a new table named tokopaedi with the the following column  and I choose the most appropriate data type based on the information provided (reference: https://www.postgresql.org/docs/current/datatype.html)
 
 
-## Opeartions and Operators
+## Operations and Operators
 Based on operator_part2.sql as we embark on our exploration of SQL, it's essential to grasp the intricacies of operations and logical operators. These fundamental components form the backbone of crafting queries that sift through and manipulate data within a database. Let's dive into the world of SQL operations and logical operators to uncover the power they hold in shaping effective data queries.
 
 1. **Operations**
