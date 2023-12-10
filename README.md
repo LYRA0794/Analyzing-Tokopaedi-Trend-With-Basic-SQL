@@ -19,9 +19,8 @@ Understanding these clauses not only empowers us to structure and retrieve data 
 
 Here is the output from this file:
 1. Screenshot
-   ![Alt Text](URL_gambar)
-3. Analysis
-   I create a new table named tokopaedi with the the following column  and I choose the most appropriate data type based on the information provided (reference: https://www.postgresql.org/docs/current/datatype.html)
+   ![Alt Text](https://github.com/LYRA0794/BasicSQL_DoubleDatabase_Analysis/blob/main/Output/klausa_dasar_part1.png)
+3. Analysis: I create a new table named tokopaedi with the the following column  and I choose the most appropriate data type based on the information provided (reference: https://www.postgresql.org/docs/current/datatype.html)
 
 
 ## operator_part2.sql
@@ -43,17 +42,16 @@ As we embark on our exploration of SQL, it's essential to grasp the intricacies 
 Here are 3 insights needed by applying existing operators to SQL queries:
 1. Show only the order_id, customer_id, and sales columns
    - Screenshot
-     ![Alt Text](URL_gambar)
-   - analysis
+     ![Alt Text](https://github.com/LYRA0794/BasicSQL_DoubleDatabase_Analysis/blob/main/Output/nomor1_operator_part2.png)
+   - Analysis: I have shown the required column such as order_id, customer_id, and sales with clause `SELECT` and `FROM` 
 2. Show all transactions originating from the City of Seattle
    - Screenshot
-     ![Alt Text](URL_gambar)
-   - analysis
+     ![Alt Text](https://github.com/LYRA0794/BasicSQL_DoubleDatabase_Analysis/blob/main/Output/nomor2_operator_part2.png)
+   - Analysis: I have shown all transactions originating from the City of Seattle with clause `SELECT`, `FROM` and `WHERE`. 
 3. Show all lists of transactions from individual consumers (segment = Consumer) who buy Furniture products in New York City
    - Screenshot
-     ![Alt Text](URL_gambar)
-   - analysis
-  
+     ![Alt Text](https://github.com/LYRA0794/BasicSQL_DoubleDatabase_Analysis/blob/main/Output/nomor3_operator_part2.png)
+   - Analysis: I have shown the required column with clause `SELECT`, `FROM` and `WHERE`. It shows all lists of transactions from individual consumers (segment = Consumer) who buy Furniture products in New York City.
 
 ## insert_delete_distinct_between_order_limit_part3.sql
 The hierarchical order of execution is crucial in SQL because it directs the sequence in which various clauses within a query are processed. This ensures that data is manipulated and presented as intended, forming the foundation for crafting precise and effective SQL queries. Here are the explanation:
@@ -94,16 +92,15 @@ These SQL operations serve various purposes, such as adding or removing data, fi
 Here are 3 insights needed by applying existing clauses to SQL queries:
 1. Display a list of names of individual consumers who transacted in the month May 2014 and is located in the city of San Francisco
    - Screenshot
-     ![Alt Text](URL_gambar)
-   - analysis
+     ![Alt Text](https://github.com/LYRA0794/BasicSQL_DoubleDatabase_Analysis/blob/main/Output/nomor1.png)
+   - Analysis: I have shown the required column with clause `SELECT`, `FROM`, `WHERE`, `BETWEEN` and `AND`. It shows a list of names of individual consumers who transacted in the month May 2014 and is located in the city of San Francisco.
 2. Display the 10 most profitable goods transactions
    - Screenshot
-     ![Alt Text](URL_gambar)
-   - analysis
+     ![Alt Text](https://github.com/LYRA0794/BasicSQL_DoubleDatabase_Analysis/blob/main/Output/nomor2.png)
+   - Analysis: I have shown the required column with clause `SELECT`, `FROM`, `ORDER BY` and `LIMIT`. It shows a list of the 10 most profitable goods transactions.
 3. Display the 10 transactions with the greatest value
    - Screenshot
-     ![Alt Text](URL_gambar)
-   - analysis
-
+     ![Alt Text](https://github.com/LYRA0794/BasicSQL_DoubleDatabase_Analysis/blob/main/Output/nomor3.png)
+   - Analysis: I have shown the required column with clause `SELECT`, `FROM`, `ORDER BY` and `LIMIT`. It shows a list of the 10 transactions with the greatest value.
 
 
