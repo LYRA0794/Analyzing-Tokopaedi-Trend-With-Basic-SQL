@@ -1,6 +1,6 @@
 # Analyzing Tokopaedi Trend With BasicSQL
 
-## klausa_dasar_part1.sql
+## Basic Clause
 Based on klausa_dasar_part1.sql allows us to learn into fundamental SQL concepts. We initiate our journey by comprehending the process of creating tables, knowing the SELECT statement and using the FROM clause. Furthermore, gaining insights into the wildcard '*' and its strategic role in database querying enhances our ability to craft targeted and effective SQL queries. So, here is an explanation of each clause used:
 
 1. **Create Table:**
@@ -23,8 +23,8 @@ Here is the output from this file:
 3. Analysis: I create a new table named tokopaedi with the the following column  and I choose the most appropriate data type based on the information provided (reference: https://www.postgresql.org/docs/current/datatype.html)
 
 
-## operator_part2.sql
-As we embark on our exploration of SQL, it's essential to grasp the intricacies of operations and logical operators. These fundamental components form the backbone of crafting queries that sift through and manipulate data within a database. Let's dive into the world of SQL operations and logical operators to uncover the power they hold in shaping effective data queries.
+## Opeartions and Operators
+Based on operator_part2.sql as we embark on our exploration of SQL, it's essential to grasp the intricacies of operations and logical operators. These fundamental components form the backbone of crafting queries that sift through and manipulate data within a database. Let's dive into the world of SQL operations and logical operators to uncover the power they hold in shaping effective data queries.
 
 1. **Operations**
    - **= (Equal to):** Checks if two values are equal.
@@ -53,8 +53,8 @@ Here are 3 insights needed by applying existing operators to SQL queries:
      ![Alt Text](https://github.com/LYRA0794/BasicSQL_DoubleDatabase_Analysis/blob/main/Output/nomor3_operator_part2.png)
    - Analysis: I have shown the required column with clause `SELECT`, `FROM` and `WHERE`. It shows all lists of transactions from individual consumers (segment = Consumer) who buy Furniture products in New York City.
 
-## insert_delete_distinct_between_order_limit_part3.sql
-The hierarchical order of execution is crucial in SQL because it directs the sequence in which various clauses within a query are processed. This ensures that data is manipulated and presented as intended, forming the foundation for crafting precise and effective SQL queries. Here are the explanation:
+## Clauses in SQL
+Based on insert_delete_distinct_between_order_limit_part3.sql the hierarchical order of execution is crucial in SQL because it directs the sequence in which various clauses within a query are processed. This ensures that data is manipulated and presented as intended, forming the foundation for crafting precise and effective SQL queries. Here are the explanation:
 
 1. **FROM:**
    At the inception of a SQL query, the `FROM` clause plays a pivotal role by specifying the source table or tables from which data will be retrieved. It establishes the fundamental foundation upon which subsequent operations will be executed.
